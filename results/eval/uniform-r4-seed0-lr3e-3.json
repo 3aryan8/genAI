@@ -1,0 +1,184 @@
+{
+  "adapter": "/home/aryan/Desktop/genAI/results/runs/uniform-r4-seed0-lr3e-3/last",
+  "run_name": "uniform-r4-seed0-lr3e-3",
+  "learning_rate": 0.003,
+  "model_id": "facebook/HuBERT-base-ls960",
+  "splits": {
+    "dev-clean": {
+      "utterance_count": 2703,
+      "reference_word_count": 54402,
+      "wer": 1.0,
+      "substitutions": 0,
+      "deletions": 54402,
+      "insertions": 0,
+      "best_5": [
+        {
+          "utt_id": "1272-128104-0000",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/128104/1272-128104-0000.flac",
+          "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1272-128104-0001",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/128104/1272-128104-0001.flac",
+          "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1272-128104-0002",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/128104/1272-128104-0002.flac",
+          "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1272-128104-0003",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/128104/1272-128104-0003.flac",
+          "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1272-128104-0004",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/128104/1272-128104-0004.flac",
+          "reference": "LINNELL'S PICTURES ARE A SORT OF UP GUARDS AND AT EM PAINTINGS AND MASON'S EXQUISITE IDYLLS ARE AS NATIONAL AS A JINGO POEM MISTER BIRKET FOSTER'S LANDSCAPES SMILE AT ONE MUCH IN THE SAME WAY THAT MISTER CARKER USED TO FLASH HIS TEETH AND MISTER JOHN COLLIER GIVES HIS SITTER A CHEERFUL SLAP ON THE BACK BEFORE HE SAYS LIKE A SHAMPOOER IN A TURKISH BATH NEXT MAN",
+          "hypothesis": "",
+          "wer": 1.0
+        }
+      ],
+      "worst_5": [
+        {
+          "utt_id": "1272-128104-0000",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/128104/1272-128104-0000.flac",
+          "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1272-128104-0001",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/128104/1272-128104-0001.flac",
+          "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1272-128104-0002",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/128104/1272-128104-0002.flac",
+          "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1272-128104-0003",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/128104/1272-128104-0003.flac",
+          "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1272-128104-0004",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/128104/1272-128104-0004.flac",
+          "reference": "LINNELL'S PICTURES ARE A SORT OF UP GUARDS AND AT EM PAINTINGS AND MASON'S EXQUISITE IDYLLS ARE AS NATIONAL AS A JINGO POEM MISTER BIRKET FOSTER'S LANDSCAPES SMILE AT ONE MUCH IN THE SAME WAY THAT MISTER CARKER USED TO FLASH HIS TEETH AND MISTER JOHN COLLIER GIVES HIS SITTER A CHEERFUL SLAP ON THE BACK BEFORE HE SAYS LIKE A SHAMPOOER IN A TURKISH BATH NEXT MAN",
+          "hypothesis": "",
+          "wer": 1.0
+        }
+      ]
+    },
+    "dev-other": {
+      "utterance_count": 2864,
+      "reference_word_count": 50948,
+      "wer": 1.0,
+      "substitutions": 0,
+      "deletions": 50948,
+      "insertions": 0,
+      "best_5": [
+        {
+          "utt_id": "116-288045-0000",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0000.flac",
+          "reference": "AS I APPROACHED THE CITY I HEARD BELLS RINGING AND A LITTLE LATER I FOUND THE STREETS ASTIR WITH THRONGS OF WELL DRESSED PEOPLE IN FAMILY GROUPS WENDING THEIR WAY HITHER AND THITHER",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "116-288045-0001",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0001.flac",
+          "reference": "LOOKING ABOUT ME I SAW A GENTLEMAN IN A NEAT BLACK DRESS SMILING AND HIS HAND EXTENDED TO ME WITH GREAT CORDIALITY",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "116-288045-0002",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0002.flac",
+          "reference": "HE MUST HAVE REALIZED I WAS A STRANGER AND WISHED TO TENDER HIS HOSPITALITY TO ME I ACCEPTED IT GRATEFULLY I CLASPED HIS HAND HE PRESSED MINE",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "116-288045-0003",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0003.flac",
+          "reference": "WE GAZED FOR A MOMENT SILENTLY INTO EACH OTHER'S EYES",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "116-288045-0004",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0004.flac",
+          "reference": "OF COURSE YOU ARE GOING THERE TOO I SAID TO MY FRIENDLY GUIDE",
+          "hypothesis": "",
+          "wer": 1.0
+        }
+      ],
+      "worst_5": [
+        {
+          "utt_id": "116-288045-0000",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0000.flac",
+          "reference": "AS I APPROACHED THE CITY I HEARD BELLS RINGING AND A LITTLE LATER I FOUND THE STREETS ASTIR WITH THRONGS OF WELL DRESSED PEOPLE IN FAMILY GROUPS WENDING THEIR WAY HITHER AND THITHER",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "116-288045-0001",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0001.flac",
+          "reference": "LOOKING ABOUT ME I SAW A GENTLEMAN IN A NEAT BLACK DRESS SMILING AND HIS HAND EXTENDED TO ME WITH GREAT CORDIALITY",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "116-288045-0002",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0002.flac",
+          "reference": "HE MUST HAVE REALIZED I WAS A STRANGER AND WISHED TO TENDER HIS HOSPITALITY TO ME I ACCEPTED IT GRATEFULLY I CLASPED HIS HAND HE PRESSED MINE",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "116-288045-0003",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0003.flac",
+          "reference": "WE GAZED FOR A MOMENT SILENTLY INTO EACH OTHER'S EYES",
+          "hypothesis": "",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "116-288045-0004",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0004.flac",
+          "reference": "OF COURSE YOU ARE GOING THERE TOO I SAID TO MY FRIENDLY GUIDE",
+          "hypothesis": "",
+          "wer": 1.0
+        }
+      ]
+    }
+  },
+  "budget": {
+    "lora_parameters": 663552,
+    "lm_head_parameters": 23070,
+    "total_trainable_parameters": 686622,
+    "lora_modules": 72
+  },
+  "sanity_checks": {
+    "reference_labels_as_logits_wer_zero": true,
+    "repeat_evaluation_identical": true,
+    "wer_is_corpus_jiwer_equal_to_total_errors_over_reference_words": true
+  },
+  "wer_method": "Corpus-level jiwer.wer over concatenated reference/hypothesis lists; not an average of per-utterance WER."
+}

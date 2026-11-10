@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Test, type-checker, and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local datasets and generated manifests (see data/README.md)
+/data/*
+!/data/README.md
+
+# Model checkpoints and training runs
+/checkpoints/*
+!/checkpoints/.gitkeep
+/results/runs/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+/results/sweep.json
+
+# Local run logs
+/run*.txt
+/sweep_partial.txt
+*.log

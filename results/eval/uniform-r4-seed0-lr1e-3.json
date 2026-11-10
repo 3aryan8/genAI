@@ -1,0 +1,184 @@
+{
+  "adapter": "/home/aryan/Desktop/genAI/results/runs/uniform-r4-seed0-lr1e-3/last",
+  "run_name": "uniform-r4-seed0-lr1e-3",
+  "learning_rate": 0.001,
+  "model_id": "facebook/HuBERT-base-ls960",
+  "splits": {
+    "dev-clean": {
+      "utterance_count": 2703,
+      "reference_word_count": 54402,
+      "wer": 0.13071210617256718,
+      "substitutions": 6338,
+      "deletions": 378,
+      "insertions": 395,
+      "best_5": [
+        {
+          "utt_id": "1272-128104-0012",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/128104/1272-128104-0012.flac",
+          "reference": "ONLY UNFORTUNATELY HIS OWN WORK NEVER DOES GET GOOD",
+          "hypothesis": "ONLY UNFORTUNATELY HIS OWN WORK NEVER DOES GET GOOD",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "1272-135031-0006",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/135031/1272-135031-0006.flac",
+          "reference": "I ALSO OFFERED TO HELP YOUR BROTHER TO ESCAPE BUT HE WOULD NOT GO",
+          "hypothesis": "I ALSO OFFERED TO HELP YOUR BROTHER TO ESCAPE BUT HE WOULD NOT GO",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "1272-135031-0009",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/135031/1272-135031-0009.flac",
+          "reference": "HE DOESN'T WORK AT ALL",
+          "hypothesis": "HE DOESN'T WORK AT ALL",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "1272-135031-0010",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/135031/1272-135031-0010.flac",
+          "reference": "IN FACT THERE IS NOTHING HE CAN DO IN THESE DOMINIONS AS WELL AS OUR NOMES WHOSE NUMBERS ARE SO GREAT THAT IT WORRIES US TO KEEP THEM ALL BUSY",
+          "hypothesis": "IN FACT THERE IS NOTHING HE CAN DO IN THESE DOMINIONS AS WELL AS OUR NOMES WHOSE NUMBERS ARE SO GREAT THAT IT WORRIES US TO KEEP THEM ALL BUSY",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "1272-135031-0014",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/135031/1272-135031-0014.flac",
+          "reference": "WHERE IS THAT",
+          "hypothesis": "WHERE IS THAT",
+          "wer": 0.0
+        }
+      ],
+      "worst_5": [
+        {
+          "utt_id": "1919-142785-0024",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1919/142785/1919-142785-0024.flac",
+          "reference": "ILLUSTRATION GINGER",
+          "hypothesis": "ILIUSTRATION JGINGER",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1919-142785-0039",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1919/142785/1919-142785-0039.flac",
+          "reference": "ILLUSTRATION MARJORAM",
+          "hypothesis": "ILLISTRATION MARGERUM",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1919-142785-0046",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1919/142785/1919-142785-0046.flac",
+          "reference": "ILLUSTRATION BASIL",
+          "hypothesis": "ILISTRATION BAZELE",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "2078-142845-0000",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/2078/142845/2078-142845-0000.flac",
+          "reference": "KIRKLEATHAM YEAST",
+          "hypothesis": "CURKCALLYTHOM EAST",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "2078-142845-0003",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/2078/142845/2078-142845-0003.flac",
+          "reference": "SEVENTEEN EIGHTEEN",
+          "hypothesis": "SEVENTEEN EIGHT TEEN",
+          "wer": 1.0
+        }
+      ]
+    },
+    "dev-other": {
+      "utterance_count": 2864,
+      "reference_word_count": 50948,
+      "wer": 0.21333516526654628,
+      "substitutions": 9403,
+      "deletions": 841,
+      "insertions": 625,
+      "best_5": [
+        {
+          "utt_id": "116-288045-0005",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0005.flac",
+          "reference": "YES HE ANSWERED I CONDUCT THE WORSHIP I AM A PRIEST",
+          "hypothesis": "YES HE ANSWERED I CONDUCT THE WORSHIP I AM A PRIEST",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "116-288045-0009",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0009.flac",
+          "reference": "NO I SAID IN A LOW VOICE",
+          "hypothesis": "NO I SAID IN A LOW VOICE",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "116-288045-0014",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0014.flac",
+          "reference": "PRODUCE HIM",
+          "hypothesis": "PRODUCE HIM",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "116-288045-0020",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0020.flac",
+          "reference": "HE IS A GOD AND THE SON OF A GOD",
+          "hypothesis": "HE IS A GOD AND THE SON OF A GOD",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "116-288045-0027",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0027.flac",
+          "reference": "WILL HE NOT BE HERE THIS MORNING",
+          "hypothesis": "WILL HE NOT BE HERE THIS MORNING",
+          "wer": 0.0
+        }
+      ],
+      "worst_5": [
+        {
+          "utt_id": "1255-90413-0018",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/1255/90413/1255-90413-0018.flac",
+          "reference": "JOCELYN PIERSTON",
+          "hypothesis": "JOSOL IN PERSTON",
+          "wer": 1.5
+        },
+        {
+          "utt_id": "1650-167613-0027",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/1650/167613/1650-167613-0027.flac",
+          "reference": "BUT WHAT AWAITS US TOMORROW",
+          "hypothesis": "BUT THE WHAT A WEIHT HAS TO MORROW",
+          "wer": 1.2
+        },
+        {
+          "utt_id": "6455-66379-0011",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/6455/66379/6455-66379-0011.flac",
+          "reference": "I'VE GOT YOU AGAIN HERE'S DOUBLE KINGS",
+          "hypothesis": "I TFUGH YOULY AN NEAR HIST DEBLE KS",
+          "wer": 1.1428571428571428
+        },
+        {
+          "utt_id": "1255-74899-0020",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/1255/74899/1255-74899-0020.flac",
+          "reference": "I'D SOONER SEE YOU DARNING MY WORSTED STOCKINGS SWEETHEART",
+          "hypothesis": "I SOON AS EYOU DANED MY WORST ID STOCKING A SWEETHEART",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1630-96099-0004",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/1630/96099/1630-96099-0004.flac",
+          "reference": "IDIOT TRIPLE IDIOT",
+          "hypothesis": "EOTE TRIPPLE EDTE",
+          "wer": 1.0
+        }
+      ]
+    }
+  },
+  "budget": {
+    "lora_parameters": 663552,
+    "lm_head_parameters": 23070,
+    "total_trainable_parameters": 686622,
+    "lora_modules": 72
+  },
+  "sanity_checks": {
+    "reference_labels_as_logits_wer_zero": true,
+    "repeat_evaluation_identical": true,
+    "wer_is_corpus_jiwer_equal_to_total_errors_over_reference_words": true
+  },
+  "wer_method": "Corpus-level jiwer.wer over concatenated reference/hypothesis lists; not an average of per-utterance WER."
+}

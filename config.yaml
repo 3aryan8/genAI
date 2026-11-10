@@ -1,0 +1,62 @@
+experiment:
+  name: hubert-ctc-nonuniform-lora
+  question: "Do non-uniform LoRA ranks beat uniform LoRA at equal trainable-parameter budget?"
+  seeds: [0, 1, 2]
+
+model:
+  id: facebook/HuBERT-base-ls960
+  task: ctc
+  sampling_rate_hz: 16000
+  ctc_loss_reduction: mean
+  mask_time_prob: 0.05
+  layerdrop: 0.0
+
+data:
+  librilight_root: data/librispeech_finetuning
+  librispeech_root: data/LibriSpeech
+  batch_max_seconds: 200
+  evaluation:
+    - dev-clean
+    - dev-other
+    - test-clean
+    - test-other
+
+methods:
+  uniform_lora:
+    ranks: [4, 16]
+    alpha_multiplier: 2
+    dropout: 0.0
+  para:
+    training_rank: 16
+    target_average_rank: 4
+    gamma: 0.25
+  laara:
+    initial_rank: 4
+    minimum_rank: 2
+    maximum_rank: 8
+    alpha: 16
+    ema: 0.97
+    warmup_steps: 200
+    update_interval_steps: 200
+    blend: 0.5
+    log_compression: 10
+    patience: 2
+
+training:
+  learning_rate: 0.0003
+  epochs: 5
+  warmup_fraction: 0.1
+  gradient_clip_norm: 1.0
+  weight_decay: 0.01
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 0.00000001
+  log_every_steps: 20
+  dev_clean_max_utterances: 500
+  debug_train_utterances: 50
+  debug_batch_max_seconds: 20
+  debug_steps: 30
+  debug_epochs: 1
+  debug_dev_clean_utterances: 20
+  sweep_learning_rates: [0.0001, 0.0003, 0.001]
+  sweep_epochs: 5

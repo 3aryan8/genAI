@@ -1,0 +1,184 @@
+{
+  "adapter": "/home/aryan/Desktop/genAI/results/runs/uniform-r4-seed0-lr3e-4/last",
+  "run_name": "uniform-r4-seed0-lr3e-4",
+  "learning_rate": 0.0003,
+  "model_id": "facebook/HuBERT-base-ls960",
+  "splits": {
+    "dev-clean": {
+      "utterance_count": 2703,
+      "reference_word_count": 54402,
+      "wer": 0.18960699974265652,
+      "substitutions": 9362,
+      "deletions": 492,
+      "insertions": 461,
+      "best_5": [
+        {
+          "utt_id": "1272-135031-0006",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/135031/1272-135031-0006.flac",
+          "reference": "I ALSO OFFERED TO HELP YOUR BROTHER TO ESCAPE BUT HE WOULD NOT GO",
+          "hypothesis": "I ALSO OFFERED TO HELP YOUR BROTHER TO ESCAPE BUT HE WOULD NOT GO",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "1272-135031-0014",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/135031/1272-135031-0014.flac",
+          "reference": "WHERE IS THAT",
+          "hypothesis": "WHERE IS THAT",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "1272-141231-0000",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/141231/1272-141231-0000.flac",
+          "reference": "A MAN SAID TO THE UNIVERSE SIR I EXIST",
+          "hypothesis": "A MAN SAID TO THE UNIVERSE SIR I EXIST",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "1272-141231-0016",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/141231/1272-141231-0016.flac",
+          "reference": "TEN SECONDS",
+          "hypothesis": "TEN SECONDS",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "1272-141231-0021",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1272/141231/1272-141231-0021.flac",
+          "reference": "EVERY MAN WHO ENTERED THE TWENTIES HAD HIS OWN TRAINING TRICKS",
+          "hypothesis": "EVERY MAN WHO ENTERED THE TWENTIES HAD HIS OWN TRAINING TRICKS",
+          "wer": 0.0
+        }
+      ],
+      "worst_5": [
+        {
+          "utt_id": "2428-83705-0036",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/2428/83705/2428-83705-0036.flac",
+          "reference": "SOMEONE SNIGGERED",
+          "hypothesis": "SOME ONE SNIGGURED",
+          "wer": 1.5
+        },
+        {
+          "utt_id": "1462-170145-0021",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1462/170145/1462-170145-0021.flac",
+          "reference": "ALEXANDER FLUSHED ANGRILY",
+          "hypothesis": "ALGANDIR FLUSSHED ANGRLY",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1919-142785-0039",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1919/142785/1919-142785-0039.flac",
+          "reference": "ILLUSTRATION MARJORAM",
+          "hypothesis": "ILISTRATION MARERAM",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "1919-142785-0046",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/1919/142785/1919-142785-0046.flac",
+          "reference": "ILLUSTRATION BASIL",
+          "hypothesis": "ILISTRATION BAZEL",
+          "wer": 1.0
+        },
+        {
+          "utt_id": "2078-142845-0000",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-clean/2078/142845/2078-142845-0000.flac",
+          "reference": "KIRKLEATHAM YEAST",
+          "hypothesis": "CERKLYTHOM EAST",
+          "wer": 1.0
+        }
+      ]
+    },
+    "dev-other": {
+      "utterance_count": 2864,
+      "reference_word_count": 50948,
+      "wer": 0.2740441234199576,
+      "substitutions": 12269,
+      "deletions": 1047,
+      "insertions": 646,
+      "best_5": [
+        {
+          "utt_id": "116-288045-0005",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0005.flac",
+          "reference": "YES HE ANSWERED I CONDUCT THE WORSHIP I AM A PRIEST",
+          "hypothesis": "YES HE ANSWERED I CONDUCT THE WORSHIP I AM A PRIEST",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "116-288045-0009",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288045/116-288045-0009.flac",
+          "reference": "NO I SAID IN A LOW VOICE",
+          "hypothesis": "NO I SAID IN A LOW VOICE",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "116-288046-0009",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288046/116-288046-0009.flac",
+          "reference": "I WISH TO TELL YOU SOMETHING",
+          "hypothesis": "I WISH TO TELL YOU SOMETHING",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "116-288047-0020",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288047/116-288047-0020.flac",
+          "reference": "THE ONLY WAY I MAY COMMAND YOUR RESPECT IS TO BE REASONABLE",
+          "hypothesis": "THE ONLY WAY I MAY COMMAND YOUR RESPECT IS TO BE REASONABLE",
+          "wer": 0.0
+        },
+        {
+          "utt_id": "116-288048-0001",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/116/288048/116-288048-0001.flac",
+          "reference": "YET THERE IS NO EVIDENCE THAT HE WAS BORN ON THAT DAY",
+          "hypothesis": "YET THERE IS NO EVIDENCE THAT HE WAS BORN ON THAT DAY",
+          "wer": 0.0
+        }
+      ],
+      "worst_5": [
+        {
+          "utt_id": "1255-90413-0018",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/1255/90413/1255-90413-0018.flac",
+          "reference": "JOCELYN PIERSTON",
+          "hypothesis": "JOSAL IN PERSTON",
+          "wer": 1.5
+        },
+        {
+          "utt_id": "6267-53049-0021",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/6267/53049/6267-53049-0021.flac",
+          "reference": "PENELOPE THOUGHT HER ALTOGETHER CHARMING",
+          "hypothesis": "WHEN ILOE BE TOUD HER ALL TOGETHER SHARMING",
+          "wer": 1.4
+        },
+        {
+          "utt_id": "8254-84205-0013",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/8254/84205/8254-84205-0013.flac",
+          "reference": "HURRAH CRIED CHRIS",
+          "hypothesis": "HOOR ARE CID CLESS",
+          "wer": 1.3333333333333333
+        },
+        {
+          "utt_id": "1650-167613-0017",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/1650/167613/1650-167613-0017.flac",
+          "reference": "A SKILLFUL COMMANDER REPLIED PIERRE",
+          "hypothesis": "ASKU FUL COMANDER REPLED THE PER",
+          "wer": 1.2
+        },
+        {
+          "utt_id": "1650-167613-0027",
+          "path": "/home/aryan/Desktop/genAI/data/LibriSpeech/dev-other/1650/167613/1650-167613-0027.flac",
+          "reference": "BUT WHAT AWAITS US TOMORROW",
+          "hypothesis": "BUT A WHAT A WIT HAS TO MORROAW",
+          "wer": 1.2
+        }
+      ]
+    }
+  },
+  "budget": {
+    "lora_parameters": 663552,
+    "lm_head_parameters": 23070,
+    "total_trainable_parameters": 686622,
+    "lora_modules": 72
+  },
+  "sanity_checks": {
+    "reference_labels_as_logits_wer_zero": true,
+    "repeat_evaluation_identical": true,
+    "wer_is_corpus_jiwer_equal_to_total_errors_over_reference_words": true
+  },
+  "wer_method": "Corpus-level jiwer.wer over concatenated reference/hypothesis lists; not an average of per-utterance WER."
+}

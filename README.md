@@ -4,6 +4,24 @@ This repository will compare uniform LoRA, PARA, and LAARA on HuBERT-base
 fine-tuned for CTC ASR. The experiment configuration is in [`config.yaml`](config.yaml);
 dependencies are listed in [`requirements.txt`](requirements.txt).
 
+## Getting started
+
+Use Python 3.10 or newer. From the repository root, create and activate a
+virtual environment, then install the dependencies:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+On Windows, activate the environment with `.venv\Scripts\activate`.
+
+The datasets, virtual environment, generated manifests, checkpoints, and
+per-run logs are local-only and excluded from Git. See [`data/README.md`](data/README.md)
+for the expected dataset layout. Small evaluation summaries in `results/eval/`
+remain available to track experiment results.
+
 ## Status
 
 M0, M1, and M2 are complete based on user-reported verification. M3 baseline
@@ -90,8 +108,14 @@ python -m src.pick_lr
 ## Planned layout
 
 - `src/`: data, model, training, evaluation, adapter methods, runner, and analysis
-- `results/`: run configurations, logs, metrics, and plots
+- `results/eval/`: shareable evaluation summaries
+- `results/runs/`: local training metrics, logs, and adapter checkpoints (ignored by Git)
 - `checkpoints/`: training checkpoints
+- `data/`: local datasets and generated manifests (ignored by Git; see [`data/README.md`](data/README.md))
 - `config.yaml`: experiment settings
 - `PROGRESS.md`: module completion checklist
+
+Training runs and checkpoints are generated locally and ignored by Git. The
+tracked `results/` directory is intended for small, shareable evaluation
+summaries and experiment metadata.
 # genAI
